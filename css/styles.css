@@ -82,6 +82,8 @@ color: #434455;
 .section-one{
     
         background-color: #2e2f42;
+        padding-top: 188px;
+        padding-bottom: 188px;
 }
 .head-title{
     font-family: "Roboto", sans-serif;
