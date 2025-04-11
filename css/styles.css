@@ -151,6 +151,8 @@ cursor: pointer;
 }
 .team-list{
     background-color: #FFFFFF;
+    border: 1px solid red;
+   
     
 }
 .team-title{
