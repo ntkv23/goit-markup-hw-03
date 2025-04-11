@@ -9,7 +9,10 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-.container
+.container{
+
+}
+
 .title-logo{
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -91,6 +94,7 @@ color: #434455;
     font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 56px;
+        max-width: 496px;
     
         /* line-height: 60px; */
         line-height: 107%;
