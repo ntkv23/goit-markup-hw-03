@@ -10,7 +10,7 @@
 
 }
 header{
-    
+    display: flex;
     
 }
 .header-nav{
@@ -26,7 +26,8 @@ body {
     background-color: #FFFFFF;
 }
 .container{
-width: 1440px;
+width: 1158px;
+
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -159,15 +160,28 @@ cursor: pointer;
    
 }
 
-/* section two */
-..visually-hidden{
-    
+.section-two{
+    padding: 120px 0;
+
+}
+.section-two-flex{
+    display: flex;
+    gap: 24px;
+
+}
+.visually-hidden{
+   
+.scn-two-list
+}
+.scn-two-list{
+    width: calc((100% - 72px) / 4);
 }
 .section-two-title{
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
         text-transform: capitalize;
+        margin-bottom: 8px;
         
     
         /* line-height: 24px; */
