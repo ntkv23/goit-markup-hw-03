@@ -278,7 +278,10 @@ font-family: "Roboto", sans-serif;
 }
 /* section last */ 
 
-
+.section-last{
+    padding-top: 120px;
+    padding-bottom: 120;
+}
 .section-last-title{
 font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -312,14 +315,14 @@ font-family: "Roboto", sans-serif;
 }
 .last-list-scn{
    width: calc((100% - 48px)/3);
-    
+    row-gap: 48px;
 
 }
 .last-list {
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
-    /* gap: 24px; */
+    
 justify-content: space-between;
 }
 .last-box{
