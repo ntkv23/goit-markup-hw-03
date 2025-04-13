@@ -8,6 +8,9 @@
 header{
     
 }
+img{
+    display: block;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -124,7 +127,7 @@ display: block;
 min-width: 169px;
 height: 56px;
 border: none;
-border-radius: 4px;
+border-radius: 4px; 
 
     line-height: 150%;
     letter-spacing: 0.04em;
