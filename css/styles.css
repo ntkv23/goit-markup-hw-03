@@ -13,8 +13,9 @@ header{
     
     
 }
-.header-flex{
+.header-nav{
     display: flex;
+    align-items: center;
 }
 img{
     display: block;
@@ -38,6 +39,7 @@ width: 1440px;
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: #4d5ae5;
+            margin-right: 76px;
 }
 .title-span{
     font-family: "Raleway", sans-serif;
@@ -52,6 +54,9 @@ width: 1440px;
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
+        display: flex;
+        gap: 40px;
+        justify-content: center;
     
        
         line-height: 150%;
@@ -101,7 +106,10 @@ color: #434455;
     color: #404bbf;
 }
 
-
+.contact-list{
+    display: flex;
+    gap: 40px;
+}
 
 
 /* section-one */
