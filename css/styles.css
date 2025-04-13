@@ -44,9 +44,14 @@ body {
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        display: flex;
+            justify-content: center;
+            gap: 40px;
+            
 }
 .list-nav {
     color: #2e2f42;
+    
 }
 .list-nav:hover,
 
@@ -282,8 +287,9 @@ ul{
 }
 .last-list{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
-    justify-content: center;
+    
     flex-basis: calc(100 - 24 * 4)/6;
 }
