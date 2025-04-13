@@ -251,7 +251,6 @@ font-family: "Roboto", sans-serif;
     margin-bottom: 8px;
    
 
-    /* line-height: 24px; */
     line-height: 120%;
     letter-spacing: 0.02em;
     text-align: center;
@@ -264,7 +263,7 @@ font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     text-align: center;
 
-    /* line-height: 24px; */
+   
     line-height: 150%;
     letter-spacing: 0.02em;
     text-align: center;
@@ -281,13 +280,13 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    padding-top: 120px;
+        padding-bottom: 120px;
 }
 .title-app{
 font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
-
-    /* line-height: 24px; */
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -296,8 +295,6 @@ font-family: "Roboto", sans-serif;
 font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-
-    /* line-height: 24px; */
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
@@ -308,11 +305,9 @@ font-family: "Roboto", sans-serif;
 }
 .last-list {
     display: flex;
-    column-gap: 24px;
     flex-wrap: wrap;
     row-gap: 48px;
-
-    flex-basis: calc(100 - 24 * 4)/6;
+flex-basis: calc(100 - 24 * 4)/6;
 }
 
 /* footer */
@@ -331,6 +326,9 @@ font-family: "Roboto", sans-serif;
         color: #f4f4fd;
         max-width: 264px;
         
+}
+.last-div{
+    display: flex;
 }
 .title-logo-footer{
     font-family: "Raleway", sans-serif;
