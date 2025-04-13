@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 /* header */
-
-header{
+.header{
     
+}
+header{
+    border-bottom: 1px solid #e7e9fc
+    
+}
+.header-flex{
+    display: flex;
 }
 img{
     display: block;
@@ -290,7 +296,7 @@ a{
 ul{
     list-style: none;
 }
-.ddddd{
+/* .ddddd{
     display: flex;
     justify-content: space-around;
     gap: 5px;
@@ -302,4 +308,4 @@ ul{
     gap: 24px;
     
     flex-basis: calc(100 - 24 * 4)/6;
-}
+} */
