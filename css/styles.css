@@ -1,7 +1,15 @@
 *,
 *::before,
 *::after {
+    
+}
+* {
+    margin: 0;
+    
     box-sizing: border-box;
+}
+
+    margin: 0;
 }
 /* header */
 .header{
@@ -13,9 +21,14 @@ header{
     display: flex;
     
 }
+.header-container{
+    display: flex;
+    align-items: center;
+}
 .header-nav{
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 img{
     display: block;
@@ -72,6 +85,7 @@ width: 1158px;
 .list-nav {
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
     
 }
 .list-nav:hover,
@@ -133,13 +147,17 @@ color: #434455;
         font-weight: 700;
         font-size: 56px;
         max-width: 496px;
-        
-    
-        /* line-height: 60px; */
+        margin-right: auto;
+        margin-left: auto;
+/* padding-right: 472px;
+padding-bottom: 48px;
+padding-left: 472px; */
+
         line-height: 107%;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+
 }
 .button{
 font-family: "Roboto", sans-serif;
@@ -151,6 +169,13 @@ min-width: 169px;
 height: 56px;
 border: none;
 border-radius: 4px; 
+margin-right: auto;
+margin-left: auto;
+
+/* padding-right: 635px;
+    
+    padding-left: 635px; */
+
 
     line-height: 150%;
     letter-spacing: 0.04em;
@@ -220,7 +245,7 @@ position: absolute;
 }
 .team-list{
     background-color: #FFFFFF;
-    border: 1px solid red;
+    
     width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 width: calc((100% - 72px) / 4);
@@ -285,7 +310,7 @@ font-family: "Roboto", sans-serif;
 
 .section-last{
     padding-top: 120px;
-    padding-bottom: 120;
+    padding-bottom: 120px;
 }
 .section-last-title{
 font-family: "Roboto", sans-serif;
@@ -297,7 +322,7 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 120px;
+ 
     padding-bottom: 120;
 }
 .title-app{
@@ -385,6 +410,8 @@ a{
 }
 ul{
     list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 
